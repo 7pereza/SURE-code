@@ -4,19 +4,14 @@ import java.util.Scanner;
 import java.io.*;
 
 /**
- * this is meatn to be run in the command line 
+ * This program is to be run in the command line
+ * This program can count the differnt number of password length in the 
+ * text file but it only goes up to 10 
  * */
 public class Curve {
 	
 	public static void main (String [] args) {
-		
-		//Scanner sc = new Scanner(System.in);
-		
-		//System.out.print("Enter the name of file to anaylze: ");
-		
-		//String name = sc.nextLine();
-		//name = "D:\\Programs\\eclipse\\work-space\\filterforpass\\fillter\\src\\passcut\\" + name ;
-		
+				
 		File f = new File(args[0]);
 		
 		//this will keep track of the number length for each password
@@ -32,7 +27,7 @@ public class Curve {
 				
 				int num = read.nextLine().length();
 				
-				////switch block
+				//switch block
 				switch(num) {
 				case 1: n1++; break;
 				case 2: n2++; break;
