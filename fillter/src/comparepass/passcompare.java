@@ -1,11 +1,11 @@
 package comparepass;
 import java.io.*;
 import java.util.Scanner;
+//This java program was made to be run on my computer
+//I made  more gernal one in folder 'com' it it just like this one
+//but you can run that in the command line  easyer just do 
+// java passcompare <file one> <file two> 
 
-//test file
-
-//notgmyspace.txt
-//100000_gmyspace15.txt
 public class passcompare {
 	/**
 	 * This function it to better compare the match 
