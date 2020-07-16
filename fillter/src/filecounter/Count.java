@@ -2,13 +2,16 @@ package filecounter;
 
 /*
  * this class will help count the number of passwords that in in each of the files
- * that i am generating from sample.py. the onlt thing i will have ti do is enter the name 
- * of the file without givening the muiilit at the end of the file 
+ * that i am generating from sample.py. The only thing i will have to do is enter the name 
+ * of the file without giveing the last part at the end of the file.
+ * - But this progam is not the usedable i mkae a more general java program called 'Count'
+ * 	all you have to do is just enter the whole name of the file (inculding .txt)
+ *	or you can also enter the whole path
  * */
+
 import java.util.Scanner;
 import java.io.*;
 
-//3147_md5-26_
 
 public class Count {
 		
@@ -43,8 +46,7 @@ public class Count {
 				
 				System.out.println("Total from file" + i + " = " + linec );
 			}//end of forloop			
-		}catch(Exception e) {
-			
+		}catch(Exception e) {			
 			e.printStackTrace();
 		}//end of try block
 		
