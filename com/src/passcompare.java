@@ -8,9 +8,10 @@ OpenJDK Runtime Environment (build 1.8.0_252-b09)
 OpenJDK 64-Bit Server VM (build 25.252-b09, mixed mode)
 or just java 8 in short 
 
-to make sure the male a .class file that it can run on th server do:
+to make sure it can run .class file on th server do:
 
 javac --release 8 passcompare.java
+in the command line
 
 */
 
@@ -68,11 +69,10 @@ public class passcompare {
 	}//end of function	
 	
 	/**
-	 * going to be using the args to make it work better in the command line 
-	 * the two thing  thing to pass if the name of the file notgive 
+	 * Going to be using the args to make it work better in the command line 
+	 * the two thing thing to pass is the name of the file notgive 
 	 * and the sample file that i am comparing with
 	 * 
-	 * not i will this 
 	 * */
 	public static void main(String[] args) {		
 		
