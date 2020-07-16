@@ -1,8 +1,5 @@
-/* this is to be use in the server do java Counterpass (file name )
- * making this java program to help me counter the number of password in the file
- * 
- * 
- * i will later,  if i need to make this a menu driven program
+/* This is to be use in the server do java Counterpass (file name )
+ * I made this java program to help me counter the number of password in the file
  *  */
 import java.util.Scanner;
 import java.io.*;
