@@ -1,4 +1,4 @@
-package dateset;
+package dataset;
 
 import java.util.Scanner;
 import java.io.*;
